@@ -4,7 +4,7 @@
 ### 1 - download GitHub desktop App (if not)
 ### 2- Then clone this repository to your laptop. (through the app )
 ### 3- Then do the isuue assigned to you.
-###4 - Don't commit to the main branch ever !!
+### 4 - Don't commit to the main branch ever !!
 ### 5 - each fature has specific brach. commit to it.
 ### 6 - pull and push request watch that video in the info above. or more
 ### Do all things through the app.
