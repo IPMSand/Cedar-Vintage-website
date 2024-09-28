@@ -7,4 +7,6 @@
 ### 4 - Don't commit to the main branch ever !!
 ### 5 - each fature has specific brach. commit to it.
 ### 6 - pull and push request watch that video in the info above. or more
-! (https://unsplash.com/photos/two-women-standing-near-green-plants-and-string-lights-during-daytime-jiv4NngVq9U)
+### Do all things through the app.
+
+![icon1](https://github.com/user-attachments/assets/7d1dffe6-cffe-4757-8ee3-092a145186fc)
