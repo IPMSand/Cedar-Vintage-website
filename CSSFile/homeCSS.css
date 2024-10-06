@@ -14,19 +14,9 @@
     padding: 0 5%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 } for video this-----*/
- .hero{
-    width:100%;
-    height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1522593494131-af72c0413ee8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    background-position: center;
-    
- }
- /*video{
+ /* video{
     position: absolute;
     width: 100%;
     right: 0;
@@ -34,21 +24,27 @@
     left: 0;
     z-index: -2;
  }*/
+ 
+ /*-----------------navbar section-----------*/
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  background-attachment: fixed;
+  
+}
+
 nav h1{
     width: 200px;
     font-size: 32px;
-    color: #fff;
+    color: #ffffff;
     
-}
-nav{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 nav ul li {
@@ -68,7 +64,7 @@ nav ul li a {
     background: transparent;
 }
 .cart img {
-    background-color: rgb(243, 239, 239);
+    background-color: #034060;
     height: 30px;
     width: auto; 
 }
@@ -84,8 +80,21 @@ nav ul li a {
     
 }
 .signup:hover {
-    background-color: yellow;
+    background-color: rgb(19, 4, 62);
   }
+  /*-------------hero-----------------------*/
+  .header-section{
+    width:100%;
+    height: 130vh;
+   
+    background-image: url("https://images.unsplash.com/photo-1522593494131-af72c0413ee8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    
+
+    
+    
+ }
   .content {
     text-align: center;
     color: rgb(254, 255, 255);
@@ -115,10 +124,22 @@ nav ul li a {
     border: 2px solid #fff;
     border-radius:20px ;
     outline: none;
-    
+    transition: width 1s;
+    transition:  color 1s;
    
 
   }
   .shop:hover {
-    background-color: yellow;
+    color: #050121;
+    background-color: rgb(20, 5, 57);
+    
   }
+  .shop:hover {
+    width: 500px;
+  }
+  /*-------------women-section info----------------*/
+  .women-section-info {
+    height: 200vh;
+    background-color: rgb(3, 5, 45);
+  }
+  
