@@ -1,4 +1,5 @@
-# Cedar-Vintage-website :dress:
+# Cedar-Vintage-website :dress:------ i changed my website idea ...it's not modern clothing website but vintage clothing website
+:grin :grin :grin :grin
 ## Clothing Website 
 !! the colours should be vintage colors.
 *read information pdf above* :grin: :smile:
