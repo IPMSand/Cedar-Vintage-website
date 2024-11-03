@@ -2,53 +2,158 @@
 <html>  
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ocean Blue</title>
-        <link rel="stylesheet" href="CSSFile/homeCSS.css">  
-        <script src="homeJs.js"></script>    
+        <title>Cedar vintage</title>
+         
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="CSSFile/homeCSS.css"> 
+        
       
     </head>
 
     <body>
         <section class="navbar-section"><!--------------------NAVBAR SECTION----------------------------------->
         
-            <!---<video autoplay loop muted plays-inline>
-                <source src="Images/video1.mp4" type="video/mp4">
-            </video>--->
-            <nav class="navbar">
+            
+            <nav class="navbar">           
+
                
-                <!--<img src="#" class="logo">--->
-                <h1>Ocean Blue</h1>
-                <ul>
+
+                <h1 class="title-top">Cedar Vintage</h1>
+
+                <div class="nav-links">
+                   <ul>
                     <li><a href="#">New</a></li>
                     <li><a href="#">Women</a></li>
                     <li><a href="#">Men</a></li>                    
-                </ul>
-                <ul class="icon">
-                    <li> <button class="cart"><img src="Images/shop2.png"></button></li>
-                    <li> <button class="signup" type="button" >Sign Up</button></li>
-                </ul>               
+                   </ul>
+                </div> 
+
+                   
+
+                <div class="icons">
+                <ul>                  
+                    <li><button type="button" class="btn1" ><i ></i> Shopping Cart</button></li>
+                    <li>
+                        <div class="dropdown">
+                             <button type="button" class="btn2 btn-primary dropdown-toggle" data-toggle="dropdown">Sign Up</button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">sign In</a>
+                                        <a class="dropdown-item" href="#">Sing uo</a>                          
+                                    </div>
+                        </div>
+                    </li>                                        
+                </ul>    
+            </div>     
+          
             </nav>
        </section>
 
         <section class="header-section"><!--------------------------------HEADER SECTION------------------------>
             <div class="content">
-            <h1>Ocean Blue<br> Your Classical Chic.</h1>
+            <h1>Cedar Vintage<br> Your Classical Chic.</h1>
             <br>
                 <button class="shop"><a href="#">Shop Women </a></button>
                 <button class="shop"><a href="#">Shop Men</a></button>
             </div>
         </section>
-
-        <section class="women-section-info">
+        <!-----------------------------extra-------------------------------------------------------->
+        <section class="new">
             <div class="section-info">
-                <p></p>
+                <table>
+                    <tr>
+                        <th><img src="https://images.unsplash.com/photo-1604830926588-b51d5ddeba7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></th>
+                        <td><button class="btn8">Shop for New</button></td>
+                        <td><button class="btn9">Sales</button></td>
+                    </tr>
+                </table>
             </div>
         </section>
-
+        <!-----------------------------------------women------------------------------------------------->
+        <section class="women">
+            <div class="section-info">
+             <table>
+                <tr>
+                    <th><img src="https://images.unsplash.com/photo-1730599615689-9598469712fc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></th>
+                    <td><button class="btn5">Blue</button></td>
+                </tr>
+                
+             </table>
+            </div>
+        </section>
+        <!-----------------------------men-------------------------------------------------------->
+        <section class="men">
+            <div class="section-info">
+                <table>
+                    <tr>
+                        <th><img src="https://images.unsplash.com/photo-1565358601198-a20c7755452d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></th>
+                        <td><button class="btn6">Blue</button></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <!----------------------------------footer---------------------------------------->
+        <section class="foot">
+            <footer>
+                <table>
+                    <tr><td>
+                        <ul>
+                            <li>About US</li>
+                            <li>Terms & Conditions </li>
+                            <li>Return & Exchange Policy</li>
+                            <li>Delivery policy</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>FAQ</li>
+                            <li>Subcription</li>
+                        </ul>
+                    </td>
+                    </tr>
+                </table>
+            </footer>
+        </section>
 
 
        
         <!-------------------JavaScript--------------------->
-        
+        <script>// Get references to the navbar element and the body element
+            const navbar = document.querySelector('.navbar');
+            const body = document.body;
+            
+            // Function to handle the scroll event
+            function handleScroll() {
+                // Calculate the scroll distance from the top
+                const scrollY = window.scrollY || body.scrollTop;
+            
+                // Set the navbar color based on the scroll position
+                if (scrollY > 0) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            }
+            
+            // Attach the scroll event listener
+            window.addEventListener('scroll', handleScroll);</script>  
+
+             <!-------JavaScript for Toggle Menu------->
+            <script> const navbarToggle = document.querySelector('.navbar-toggle');
+                const nav = document.querySelector('.navbar');
+                
+                navbarToggle.addEventListener('click', () => {
+                    navbar.classList.toggle('show');
+                });
+             </script>
     </body>
 </html>
+  <!---<video autoplay loop muted plays-inline>
+                <source src="Images/video1.mp4" type="video/mp4">
+            </video>--->
+            <!--<img src="#" class="logo">--->
