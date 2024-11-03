@@ -1,5 +1,6 @@
-# Ocean-Bleu-website :dress:
+# Cedar-Vintage-website :dress:
 ## Clothing Website 
+!! the colours should be vintage colors.
 *read information pdf above* :grin: :smile:
 ### 1 - download GitHub desktop App (if not)
 ### 2- Then clone this repository to your laptop. (through the app )
