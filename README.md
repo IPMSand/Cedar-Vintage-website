@@ -1,13 +1,13 @@
 # Cedar-Vintage-website :dress:------ i changed my website idea ...it's not modern clothing website but vintage clothing website
 :grin: :grin: :grin: :grin:
-## Clothing Website 
+### Clothing Website 
 !! the colours should be vintage colors.
-*read information pdf above* :grin: :smile:
-### info
-   1 - download GitHub desktop App (if not)
-   2- Then clone this repository to your laptop. (through the app )
-   3- commit to  the main branch. It's fine.
-   Do all things through the app.
+*read information pdf above* 
+> ### info
+- 1 - download GitHub desktop App (if not)
+- 2- Then clone this repository to your laptop. (through the app )
+- 3- commit to  the main branch. It's fine.
+-  Do all things through the app.
 > To do main Pages
 - [ ] Home page
 - [ ] Women page
