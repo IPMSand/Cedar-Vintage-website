@@ -16,7 +16,7 @@
 - [ ] new
 - [ ] sign in
 - [ ] register
-> ### non piorty pages
+> ### other pages
 - [ ] ???? others in footer and payment part pages
 
 > GitHub Video [Git Video link](https://youtu.be/9j0AOrO0dnw/).
