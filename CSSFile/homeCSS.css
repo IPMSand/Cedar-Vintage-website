@@ -2,9 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Tahoma, sans-serif;
-   
-  
+    font-family: Tahoma, sans-serif;  
 }
 body{
   
@@ -46,21 +44,19 @@ body{
   z-index: 1;
   background-attachment: fixed;
   display: flex;
-  
-}
+  }
 
 .navbar.scrolled {
   background-color:  rgba(0, 0, 0, 0.811);
   opacity: 0.7;
-  
-}
+  }
+
 nav .title-top{
     width: 200px;
     font-size: 32px;
-    color: #ffffff;
-   
-    
+    color: #ffffff;   
 }
+
 .menu-icon{
   display: none;
   font-size: 36px;
@@ -76,16 +72,16 @@ nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    
 }
+
 nav ul li a:hover {
- color:#F5F5F5;
-  
+ color:#F5F5F5;  
 }
 
 .cart{
     background: transparent;
 }
+
 .cart img {
     background-color: #034060;
     height: 30px;
@@ -100,48 +96,44 @@ nav ul li a:hover {
     border-radius:20px ;
     outline: none;
     cursor: pointer;
-    
 }
+
 .btn2:hover {
     background-color: rgb(21, 0, 74);
   }
-  .dropdown-menu{
+
+.dropdown-menu{
     background-color: rgb(10, 0, 72);
     color: #fff;
   }
-  .dropdown-item{
+.dropdown-item{
     color: #ffffff;
   }
-  .btn1{ color: rgb(255, 255, 255);
+.btn1{ color: rgb(255, 255, 255);
     padding: 7px 15px;
     background: transparent;    
     border: 1px solid #fff;
     border-radius:20px ;
     outline: none;
     cursor: pointer;
-    align-content: end;
-    
+    align-content: end;    
     background-color: rgba(255, 99, 71, 0)5;
   }
-  .btn1:hover{
-    background-color: #013653;
-  }
+
+.btn1:hover{
+background-color: #013653; }
   
   /*-------------hero-----------------------*/
   .header-section{
     width:100%;
-    height: 100vh;
-    
-   
+    height: 100vh;   
     background-image: url("https://images.unsplash.com/photo-1731484634971-7dd76f2c0b7c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
-   
-
-    
-    
+         
  }
-  .content {
+
+.content {
     text-align: center;
     color: rgb(254, 255, 255);
     position:absolute;
@@ -150,18 +142,22 @@ nav ul li a:hover {
     transform: translateY(-50%);   
     text-align: left;
   }
-  .content h1 {
+
+.content h1 {
     font-size: 60px;
     color: #fff;
   }
-  .content button{
+
+.content button{
     
   }
-  .content button a {
+
+.content button a {
     text-decoration: none;
     color: #fff;
   }
-  .shop{
+
+.shop{
     color: rgb(255, 255, 255);
     padding: 11px 25px;
     margin-inline: 20px;
@@ -171,37 +167,38 @@ nav ul li a:hover {
     outline: none;
     transition: width 1s;
     transition:  color 1s;
-   
+     }
 
-  }
-  .shop:hover {
-    
+.shop:hover {    
     background-color: rgb(20, 5, 57);
     zoom: 105%;
- 
     
   }
   /*----------------------------section----------------------------------*/
-  .section-info img {
+.section-info img {
     height: 400px;
     align-content: center;}
 
-  .section-info th,td {
+.section-info th,td {
     padding: 185px;
     text-align: left;
   } 
-  .section-info button{
+
+.section-info button{
     border-radius: 12px;
     width: 150px;
     height: 50px;
   }
-  .men td,th {
+
+ .men td,th {
     background: rgba(74, 45, 4, 0.611);
   }
-  .women td,th {
+
+.women td,th {
     background: rgba(74, 45, 4, 0.611);
   }
-  .new td,th {
+
+.new td,th {
     background: rgba(74, 45, 4, 0.611);
   }
   /*------------------------new-------------------------*/
@@ -214,17 +211,12 @@ nav ul li a:hover {
     background-color: rgb(72, 77, 173);
     
   }
-  
- 
-
   /*----------------------------men------------------------*/  
   .men {
     height: 680px;
     background-color: rgb(120, 123, 180);
-
   }
-  
-  /*--------------------foot------------------*/
+    /*--------------------foot------------------*/
   footer {
     background-color: #030000;
     padding: 10px;
