@@ -26,7 +26,7 @@ This repository houses the codebase for a vintage clothing e-commerce website. T
              - A platform for customers to share their experiences and feedback.
 
 ## Technology Stack
-> - Frontend: HTML, CSS, JavaScript
+> - Frontend: HTML, CSS, JavaScript , Boostrap
 > - Backend: 
 > - Cloud Platform: 
 
