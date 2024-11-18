@@ -11,19 +11,19 @@ This repository houses the codebase for a vintage clothing e-commerce website. T
 - sales
 
 - Product Catalog:
-        - Comprehensive catalog of vintage items, categorized by era, style, and gender.
+               - Comprehensive catalog of vintage items, categorized by era, style, and gender.
  - Detailed Product Descriptions:
-        - In-depth descriptions, including condition, materials, and measurements.
+              - In-depth descriptions, including condition, materials, and measurements.
  - Secure Checkout:
-        - Robust and secure payment processing.
+              - Robust and secure payment processing.
  - User Accounts:
-         - Personalized shopping experiences, order history, and wishlist.
+              - Personalized shopping experiences, order history, and wishlist.
  - Responsive Design:
-       - Optimized for seamless browsing on various devices.
+              - Optimized for seamless browsing on various devices.
  - Search and Filtering:
-      - Advanced search and filtering options to refine product searches.
+              - Advanced search and filtering options to refine product searches.
  - Customer Reviews:
-      - A platform for customers to share their experiences and feedback.
+             - A platform for customers to share their experiences and feedback.
 
 ## Technology Stack
 > Frontend: HTML, CSS, JavaScript
