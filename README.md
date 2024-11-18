@@ -5,10 +5,10 @@
 This repository houses the codebase for a vintage clothing e-commerce website. The platform is designed to offer a curated selection of vintage apparel and accessories, catering to fashion enthusiasts seeking unique and timeless pieces.
 
 ## Key Features
-> men
-> women
-> new
-> sales
+- men
+- women
+- new
+- sales
 
 ## Product Catalog: Comprehensive catalog of vintage items, categorized by era, style, and gender.
 ## Detailed Product Descriptions: In-depth descriptions, including condition, materials, and measurements.
