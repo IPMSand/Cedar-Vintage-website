@@ -4,9 +4,9 @@ The platform is designed to offer a curated selection of vintage apparel and acc
 catering to fashion enthusiasts seeking unique and timeless pieces.
 ##
 Product Categories:
-Men's Vintage: A wide range of vintage clothing for men, including shirts, pants, jackets, and accessories.
-Women's Vintage: A diverse collection of vintage dresses, skirts, tops, and accessories for women.
-Vintage Accessories: A curated selection of vintage accessories, such as hats, belts, jewelry, and bags.
+- Men's Vintage: A wide range of vintage clothing for men, including shirts, pants, jackets, and accessories.
+- Women's Vintage: A diverse collection of vintage dresses, skirts, tops, and accessories for women.
+- Vintage Accessories: A curated selection of vintage accessories, such as hats, belts, jewelry, and bags.
 
 
 > ### Clothing Website 
