@@ -10,7 +10,8 @@ This repository houses the codebase for a vintage clothing e-commerce website. T
 - new
 - sales
 
-## Product Catalog: Comprehensive catalog of vintage items, categorized by era, style, and gender.
+- Product Catalog:
+        - Comprehensive catalog of vintage items, categorized by era, style, and gender.
  - Detailed Product Descriptions:
         - In-depth descriptions, including condition, materials, and measurements.
  - Secure Checkout:
