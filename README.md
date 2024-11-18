@@ -2,7 +2,12 @@
 This repository houses the codebase for a vintage clothing e-commerce website. 
 The platform is designed to offer a curated selection of vintage apparel and accessories,
 catering to fashion enthusiasts seeking unique and timeless pieces.
-
+##
+| Features | Description |
+| --- | --- |
+| Men's Vintage | In-depth descriptions for each product, including materials, condition, measurements, and historical context |
+| Women's Vintage | In-depth descriptions for each product, including materials, condition, measurements, and historical context |
+| Vintage Accessories:  | In-depth descriptions for each product, including materials, condition, measurements, and historical context |
 
 > ### Clothing Website 
 !! the colours should be vintage colors.
