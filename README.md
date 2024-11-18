@@ -1,5 +1,9 @@
-## Cedar-Vintage-website :dress:------ i changed my website idea ...it's not modern clothing website but vintage clothing website
-:grin: :grin: :grin: :grin:
+## CENDER VINTAGE CLOTHING website
+This repository houses the codebase for a vintage clothing e-commerce website. 
+The platform is designed to offer a curated selection of vintage apparel and accessories,
+catering to fashion enthusiasts seeking unique and timeless pieces.
+
+
 > ### Clothing Website 
 !! the colours should be vintage colors.
 *read information pdf above* 
@@ -8,18 +12,7 @@
 - 2- Then clone this repository to your laptop. (through the app )
 - 3- commit to  the main branch. It's fine.
 -  Do all things through the app.
-> ### To do main Pages
-- [ ] Home page
-- [ ] Women page
-- [ ] Men page
-- [ ] Sales
-- [ ] new
-- [ ] sign in
-- [ ] register
-> ### other pages
-- [ ] ???? others in footer and payment part pages
+
 
 > GitHub Video [Git Video link](https://youtu.be/9j0AOrO0dnw/).
-> [youtube another tutorial](https://youtube.com/@greatstackdev?si=3suY_4zsB7CiUf-7)
-> _____________
 ![icon1](https://github.com/user-attachments/assets/7d1dffe6-cffe-4757-8ee3-092a145186fc)
