@@ -125,10 +125,10 @@ nav ul li a:hover {
 .dropdown-item{
     color:var(--seven-color);
   }
-.btn1{ color: rgb(255, 255, 255);
+.btn1{ color: var(--seven-color);
     padding: 7px 15px;
     background: transparent;    
-    border: 1px solid #fff;
+    border: 1px solid var(--seven-color);
     border-radius:20px ;
     outline: none;
     cursor: pointer;
