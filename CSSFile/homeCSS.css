@@ -92,7 +92,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
- color:#F5F5F5;  
+ color:var(--seven-color);  
 }
 
 .cart{
