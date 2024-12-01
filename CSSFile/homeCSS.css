@@ -120,7 +120,7 @@ nav ul li a:hover {
 
 .dropdown-menu{
     background-color: var(--Second-color);
-    color: #fff;
+    color: var(--seven-color);
   }
 .dropdown-item{
     color: #ffffff;
