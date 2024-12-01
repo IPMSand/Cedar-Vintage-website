@@ -16,6 +16,7 @@
   --pink-color:#9f4282;
   --green-color: #56887F;
   --blue-color:#2cd2ee;
+  --trans-color:rgba(255, 99, 71, 0)5;
 }
 body{
   width: 100%;
@@ -70,7 +71,7 @@ body{
 nav .title-top{
     width: 200px;
     font-size: 32px;
-    color: #ffffff;   
+    color: var(--seven-color);   
 }
 
 .menu-icon{
@@ -133,7 +134,7 @@ nav ul li a:hover {
     outline: none;
     cursor: pointer;
     align-content: end;    
-    background-color: rgba(255, 99, 71, 0)5;
+    background-color: ;
   }
 
 .btn1:hover{
