@@ -62,11 +62,11 @@ body{
   display: flex;
   }
 
-.navbar.scrolled {
+/*.navbar.scrolled {
   background-color:  rgba(0, 0, 0, 0.811);
   opacity: 0.7;
   }
-
+*/
 nav .title-top{
     width: 200px;
     font-size: 32px;
@@ -195,8 +195,7 @@ background-color: #013653; }
     margin-top: 60px;
     margin-bottom: 90px;
   }
-  .new-arrival-img{
-  }
+ 
   .new-arrival-img img{
     flex: 1 1 21rem;
     width: 100%;
@@ -325,6 +324,6 @@ background-color: #013653; }
  }
 footer table tr td ul {
   display: block;
-  margin: 20px 80px;
-  
+  margin: 20px 80px;  
 }
+/*not completed*/
