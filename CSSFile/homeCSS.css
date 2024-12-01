@@ -167,7 +167,7 @@ background-color:var(--Second-color) }
 
 .content button a {
     text-decoration: none;
-    color: #fff;
+    color: var(--seven-color);
   }
 
 .shop{
