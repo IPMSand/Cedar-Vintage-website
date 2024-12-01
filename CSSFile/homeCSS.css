@@ -152,7 +152,7 @@ background-color:var(--Second-color) }
 
 .content {
     text-align: center;
-    color: rgb(254, 255, 255);
+    color: var(--seven-color);
     position:absolute;
     top:50%;
     left: 8%;
