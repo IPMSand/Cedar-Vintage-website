@@ -171,7 +171,7 @@ background-color:var(--Second-color) }
   }
 
 .shop{
-    color: rgb(255, 255, 255);
+    color: var(--seven-color);
     padding: 11px 25px;
     margin-inline: 20px;
    background: transparent;    
