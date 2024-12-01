@@ -115,11 +115,11 @@ nav ul li a:hover {
 }
 
 .btn2:hover {
-    background-color: rgb(21, 0, 74);
+    background-color:var(--Second-color);
   }
 
 .dropdown-menu{
-    background-color: rgb(10, 0, 72);
+    background-color: var(--Second-color);
     color: #fff;
   }
 .dropdown-item{
