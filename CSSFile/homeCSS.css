@@ -162,7 +162,7 @@ background-color:var(--Second-color) }
 
 .content h1 {
     font-size: 60px;
-    color: #fff;
+    color: var(--seven-color);
   }
 
 .content button{
