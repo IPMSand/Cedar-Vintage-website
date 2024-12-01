@@ -87,7 +87,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--seven-color);
     font-size: 20px;
 }
 
