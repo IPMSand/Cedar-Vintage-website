@@ -134,7 +134,7 @@ nav ul li a:hover {
     outline: none;
     cursor: pointer;
     align-content: end;    
-    background-color: ;
+    background-color:var(--trans-color) ;
   }
 
 .btn1:hover{
