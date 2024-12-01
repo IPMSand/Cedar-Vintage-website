@@ -106,7 +106,7 @@ nav ul li a:hover {
 }
 
 .btn2 {
-    color: rgb(255, 255, 255);
+    color: var(--seven-color);
     padding: 7px 15px;
     background: transparent;    
     border: 1px solid #fff;
