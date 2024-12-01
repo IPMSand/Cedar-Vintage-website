@@ -165,10 +165,6 @@ background-color:var(--Second-color) }
     color: var(--seven-color);
   }
 
-.content button{
-    
-  }
-
 .content button a {
     text-decoration: none;
     color: #fff;
