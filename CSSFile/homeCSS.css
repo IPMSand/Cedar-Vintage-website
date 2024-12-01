@@ -175,7 +175,7 @@ background-color:var(--Second-color) }
     padding: 11px 25px;
     margin-inline: 20px;
    background: transparent;    
-    border: 2px solid #fff;
+    border: 2px solid var(--seven-color);
     border-radius:20px ;
     outline: none;
     transition: width 1s;
