@@ -4,7 +4,23 @@
     box-sizing: border-box;
     font-family: Tahoma, sans-serif;  
 }
+:root{
+  --main-color:#112C33;
+  --Second-color:#A7963C;
+  --third-color:#BFCCB8;
+  --fourth-color:#BFCCB8;
+  --fifth-color:#C5C098;
+  --six-color:#F1EFE2;
+  --seven-color:#ffff;
+  --red-color:#6E0D3A;
+  --pink-color:#9f4282;
+  --green-color: #56887F;
+  --blue-color:#2cd2ee;
+}
 body{
+  width: 100%;
+  background-color: var(--seven-color);
+  
   
 }
 /*.hero{
@@ -32,8 +48,8 @@ body{
 }
  /*-----------------navbar section-----------*/
 .navbar{
-  width: 100%;
-  position:fixed;
+  width: 100%; 
+  position: absolute;
   display:block;  
   top: 0;
   left: 0;
@@ -174,53 +190,141 @@ background-color: #013653; }
     zoom: 105%;
     
   }
-  /*----------------------------section----------------------------------*/
-.section-info img {
-    height: 400px;
-    align-content: center;}
-
-.section-info th,td {
-    padding: 185px;
-    text-align: left;
-  } 
-
-.section-info button{
-    border-radius: 12px;
-    width: 150px;
-    height: 50px;
+  /*-----new arival-----------------------*/
+  .new-arrival{
+    margin-top: 60px;
+    margin-bottom: 90px;
   }
-
- .men td,th {
-    background: rgba(74, 45, 4, 0.611);
+  .new-arrival-img{
   }
-
-.women td,th {
-    background: rgba(74, 45, 4, 0.611);
+  .new-arrival-img img{
+    flex: 1 1 21rem;
+    width: 100%;
+    margin:0rem 6rem 0 2rem;
   }
-
-.new td,th {
-    background: rgba(74, 45, 4, 0.611);
+  
+  .new-text{
+    flex: 1 1 21rem;
   }
-  /*------------------------new-------------------------*/
-  .new{
-    background-color: #034060;
+  .new-text h2{
+    font-size: 1.2rem;
+    color: var(--Second-color);
   }
-  /*------------women-section info----------------*/
-  .women {
-    height:680px;
-    background-color: rgb(72, 77, 173);
+  .new-text p{
+    margin: 1rem 0 1rem;
+    text-align: justify;
+  }
+  /*---------sales------------------------*/
+  .sale{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width:100%;  
+    
+    background-size: cover;
+    background-position: center;
     
   }
-  /*----------------------------men------------------------*/  
-  .men {
-    height: 680px;
-    background-color: rgb(120, 123, 180);
-  }
-    /*--------------------foot------------------*/
-  footer {
-    background-color: #030000;
-    padding: 10px;
+  
+  .sale-img img{
+    display: block;
+    margin: 0 auto;
+    flex: 1 1 0.5rem;    
+    width: 90%;
+    
+  }/*image size fix and white space cuz it*/
+  
+  .sale-text{
+    flex: 1 1 21rem;
+    position:absolute;
+    top:70%;
+    left: 30%;
+    transform: translateY(-50%);   
     text-align: center;
-    color: white;
   }
- 
+  .sale h2{
+    font-size: 3rem;
+    color: var(--seven-color);
+  }
+  .sale-text h1{
+    font-size: 7rem;
+    color: var(--seven-color);
+  }
+  .sale p{
+    margin: 1rem 0 1rem;
+    text-align: center;
+    color: var(--seven-color);
+  }
+  .sale-link{
+    flex: 1 1 21rem;
+    position:absolute;
+    top:37%;
+    left: 47%;
+    transform: translateY(-50%);   
+    text-align: center;
+    
+  }
+  .sale-link ul li{
+    text-decoration: none;
+  }
+  .sale-link ul li a{
+    font-size: 25px;
+    color: var(--seven-color);
+  }
+  /*------ new testing--------------------*/
+  .heading{
+    text-align: center;
+  }
+  .heading span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--Second-color);
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .new{
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .new-img{
+    flex: 1 1 21rem;
+    width: 30%;
+    margin:0rem 6rem 0 2rem;
+  }
+  .new-text{
+    flex: 1 1 21rem;
+  }
+  .new-text h2{
+    font-size: 1.2rem;
+    color: var(--Second-color);
+  }
+  .new-text p{
+    margin: 1rem 0 1rem;
+    text-align: justify;
+  }
+
+
+/*  --------------------foot------------------*/
+ footer{
+  background-color:var(--main-color);
+ }
+ footer table { 
+  flex-wrap: wrap;
+  
+  align-items: center;
+  height: 250px;
+  
+  width: 100%;
+  color: #ffffff;
+  padding-block: 20px;
+  margin: 7px 17px;
+  line-height: 2;  
+ }
+footer table tr td ul {
+  display: block;
+  margin: 20px 80px;
+  
+}

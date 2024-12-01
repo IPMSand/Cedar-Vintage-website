@@ -1,0 +1,48 @@
+/*deleted section*/
+.section-info img {
+    height: 600px;
+    align-content: center;
+   
+    margin: 20px;
+    }
+
+.section-info th,td {
+    padding: 180 px;
+    text-align: left;
+  } 
+ 
+
+.section-info button{
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+  }
+/*------------------------new-------------------------*/
+  .newm{
+    height: 680px;
+    margin: 80px 50px;
+    background-color: #A7963C;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  /*------------women-section info----------------*/
+  .women {
+    height:680px;
+    background-color:  #A7963C;
+    border-radius: 20px;
+    margin: 80px 50px;
+    border: 2px solid #ccc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  /*----------------------------men------------------------  */
+  .men {
+    height: 680px;
+    background-color: #A7963C;
+    border-radius: 20px;
+    margin: 80px 50px;
+    border: 2px solid #ccc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   
+  }
