@@ -224,26 +224,43 @@ background-color:var(--Second-color) }
   
   .sale-img img{
     display: block;
+    flex-wrap: wrap;
     margin: 0 auto;
     flex: 1 1 0.5rem;    
-    width: 90%;
+    width: 92%;
     
   }/*image size fix and white space cuz it*/
   
   .sale-text{
+    display: block;
     flex: 1 1 21rem;
+    flex-wrap: wrap;
     position:absolute;
     top:70%;
     left: 30%;
     transform: translateY(-50%);   
     text-align: center;
   }
+  @media screen and ( min-width: 600px) {
+    .sale-text h2 {
+      
+      font-size: 0.3rem;
+    }
+    .sale-text h1 {
+      
+      font-size: 0.3rem;
+    }
+    .sale-text p {
+      
+      font-size: 1rem;
+    }
+  }
   .sale h2{
     font-size: 3rem;
     color: var(--seven-color);
   }
   .sale-text h1{
-    font-size: 7rem;
+    font-size: 5rem;
     color: var(--seven-color);
   }
   .sale p{
