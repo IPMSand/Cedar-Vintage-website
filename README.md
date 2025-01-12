@@ -47,7 +47,7 @@ This repository houses the codebase for a vintage clothing e-commerce website. T
   
 > [!WARNING]
 > Always refresh the repo with local repo before commit/psush/coding.
-- > and please revview each other isuees.
+- > and please revview each other's isuees.
 
 > GitHub Instructions:
 -      https://youtu.be/9j0AOrO0dnw/
