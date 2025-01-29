@@ -21,7 +21,10 @@
 }
 body{
   width: 100%;
-  background-color: var(--seven-color);
+  /*background-color: var(--seven-color);*/
+  background-image: url("leather_texture.jpg"); /* Replace with your leather image */
+  background-size: cover; /* Or contain, depending on the effect you want */
+  background-repeat: repeat; /
   
   
 }
@@ -195,9 +198,13 @@ background-color:var(--Second-color) }
   }
  
   .new-arrival-img img{
-    flex: 1 1 21rem;
-    width: 100%;
+    flex: 1; /* Distribute space equally */
+    
+    object-fit: cover;
+  width: 500px; /* Total width of both images */
+  height: 740px;
     margin:0rem 6rem 0 2rem;
+    
   }
   
   .new-text{
@@ -305,11 +312,18 @@ background-color:var(--Second-color) }
   }
   .new-img{
     flex: 1 1 21rem;
-    width: 30%;
-    margin:0rem 6rem 0 2rem;
+    width: 35%;
+    margin:0rem 6rem 0 1rem;
+   
+  }
+  .new-img img{
+    width: 50%;
+   
   }
   .new-text{
     flex: 1 1 21rem;
+    text-wrap: wrap;
+    align-items: start;
   }
   .new-text h2{
     font-size: 1.2rem;
@@ -319,7 +333,7 @@ background-color:var(--Second-color) }
     margin: 1rem 0 1rem;
     text-align: justify;
   }
-
+ 
 
 /*  --------------------foot------------------*/
  footer{
