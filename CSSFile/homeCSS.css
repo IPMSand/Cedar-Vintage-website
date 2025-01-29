@@ -22,10 +22,7 @@
 body{
   width: 100%;
   /*background-color: var(--seven-color);*/
-  background-image: url("leather_texture.jpg"); /* Replace with your leather image */
-  background-size: cover; /* Or contain, depending on the effect you want */
-  background-repeat: repeat; /
-  
+  background-color: #f8f8f8;
   
 }
 /*.hero{
