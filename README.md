@@ -1,4 +1,4 @@
-## CENDER VINTAGE : Clothing Website - old
+## CENDER VINTAGE : Clothing Website -ok
 
 ## Overview
 
