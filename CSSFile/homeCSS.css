@@ -20,7 +20,11 @@
   /*here are vintage colors- more in the website in disscussion section in github*/
 }
 /*------nav----*/
-
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
 /*-------HERO-----*/
 .hero {
 width:100%;

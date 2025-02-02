@@ -15,7 +15,7 @@
 
 <body>
 	<div class="container-fluid"><nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CEDER VINTAGE</a>
+        <a class="navbar-brand" id="navbar-brand" href="#">CEDER VINTAGE</a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
 				
@@ -63,7 +63,7 @@
            <div class="container-fluid">
                <div class="row">
                    <div class="col-md-12">
-                       <h1>CENDER VINTAGE</h1>
+                       <header id="header"><h1>CENDER VINTAGE</h1></header>
                        <p>Explore our curated collection of vintage fashion, accessories, and more.</p>
                        <a href="#" class="btn btn-primary btn-lg">FOR HER</a>
                        <a href="#" class="btn btn-primary btn-lg">FOR HIM</a>
@@ -273,7 +273,32 @@
             });
          </script>
 </html>
-  <!---<video autoplay loop muted plays-inline>
-                <source src="Images/video1.mp4" type="video/mp4">
-            </video>--->
-            <!--<img src="#" class="logo">--->
+  <!---<video autoplay loop muted plays-inline-->
+    <script>
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const navbarBrand = document.getElementById("navbar-brand");
+  if (document.documentElement.scrollTop > 110) {
+    navbarBrand.style.position = "fixed"; // Use fixed positioning
+    navbarBrand.style.top = "0";        // Position at the top
+    navbarBrand.style.left = "50%";       // Center horizontally
+    navbarBrand.style.transform = "translateX(-50%)"; // Adjust for centering
+    navbarBrand.style.fontSize = "20px"; // Keep the font size the same or adjust as needed.
+    navbarBrand.style.zIndex = "100"; // Ensure it's above other content.
+    navbarBrand.style.backgroundColor = "white"; // Optional: Add a background color
+    navbarBrand.style.padding = "10px"; // Optional: Add padding
+  } else {
+    navbarBrand.style.position = "relative"; // Or whatever your default positioning is
+    navbarBrand.style.top = "auto";
+    navbarBrand.style.left = "auto";
+    navbarBrand.style.transform = "translateX(0)";
+    navbarBrand.style.fontSize = "20px"; // Reset to original font size if needed
+    navbarBrand.style.backgroundColor = "transparent"; // Optional: Reset background
+    navbarBrand.style.padding = "0"; // Optional: Reset padding
+  }
+}
+        </script>
+        
+        
+          
