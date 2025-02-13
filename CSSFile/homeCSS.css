@@ -16,14 +16,31 @@
   --pink-color:#9f4282;
   --green-color: #56887F;
   --blue-color:#2cd2ee;
+  --brown-color:#4A0404;
+  --white-color:#ffffff;
   --trans-color:rgba(255, 99, 71, 0)5;
   /*here are vintage colors- more in the website in disscussion section in github*/
 }
+body{
+
+}
 /*------nav----*/
+nav{
+  color:var(--white-color);
+}
 .navbar{
   position: fixed;
   width: 100%;
   z-index: 100;
+  background-color: var(--brown-color);
+  
+  
+}
+.navbar .navbar-brand{
+  color:var(--white-color);
+}
+.navbar-nav .nav-item .nav-link{
+  color:var(--white-color);
 }
 /*-------HERO-----*/
 .hero {
@@ -76,6 +93,14 @@ text-align: center;
 /*---selection sec----*/
 .featured-categories img {
   width: 100%;
+ 
+}
+.featured-categories{
+  color: var(--fourth-color);
+  
+}
+.featured-categories h2{
+  
 }
 
 /*----NEW---*/
