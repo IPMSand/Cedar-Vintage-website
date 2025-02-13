@@ -44,11 +44,13 @@ nav{
 }
 /*-------HERO-----*/
 .hero {
-width:100%;
-  height: 100vh;   
+  width: calc(100vw - 4vw);
+  height: calc(100vh); /* Adjust if needed to account for smaller top margin */
+  margin: 20px auto 1vw; /* 20px top, auto left/right, 1vw bottom */
   background-image: url("https://images.unsplash.com/photo-1731484634971-7dd76f2c0b7c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
+  box-sizing: border-box;
 }
 .hero-content{
 text-align: center;
@@ -81,7 +83,7 @@ text-align: center;
 
 /*----blank space---*/
 .blank-space-1{
-  height: 15vh;
+  height: 5vh;
 }
 .blank-space-2{
   height: 10vh;
@@ -91,18 +93,56 @@ text-align: center;
 }
 
 /*---selection sec----*/
-.featured-categories img {
-  width: 100%;
- 
-}
-.featured-categories{
-  color: var(--fourth-color);
-  
-}
-.featured-categories h2{
-  
+
+
+.featured-categories.container {
+  background-color: #f0f0f0; /* Slightly darker gray for container */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
 }
 
+.featured-categories .image-area {
+  display: flex;
+  flex-direction: column; /* Arrange images vertically */
+  gap: 10px; /* Space between images */
+}
+
+.featured-categories .rectangle {
+  width: 80%; /* Make images fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+   /* Optional: slightly rounded corners for images */
+}
+
+.featured-categories .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center text */
+  align-items: center; /* Horizontally center text */
+  text-align: center; /* Center text within the container */
+}
+
+.featured-categories h1 {
+  color: #555; /* Dark gray heading */
+  margin-bottom: 10px;
+}
+
+.featured-categories p {
+  color: #777; /* Slightly lighter gray for paragraph */
+  margin-bottom: 20px;
+}
+
+.featured-categories button {
+  background-color: #a00; /* Dark red button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.featured-categories img{
+  width: 300px;
+}
 /*----NEW---*/
 .new-arrival {
   text-align: center;
@@ -118,8 +158,29 @@ text-align: center;
   width: 100%;
 }
 /*-------footer----*/
-.foot{
-  background-color:black;
- color: aliceblue;
- 
+footer {
+  background-color: #270000;  /* Or your color */
+}
+/* You can add more styles for other footer elements here */
+footer .container {
+  /* Example: Add padding to the container inside the footer */
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none; /* remove bullet points */
+  padding: 0; /* remove default padding */
+}
+
+footer li {
+  margin-bottom: 5px; /* add some space between links */
+}
+
+footer a {
+  color: #ffffff; /* set link color */
+  text-decoration: none; /* remove underline */
+}
+
+footer a:hover {
+  color: #706500; /* change color on hover */
 }
