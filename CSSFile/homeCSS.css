@@ -44,8 +44,8 @@ nav{
 }
 /*-------HERO-----*/
 .hero {
-  width: calc(100vw - 4vw);
-  height: calc(100vh); /* Adjust if needed to account for smaller top margin */
+  width: 100%;
+  height: 100vh; /* Adjust if needed to account for smaller top margin */
   margin: 20px auto 1vw; /* 20px top, auto left/right, 1vw bottom */
   background-image: url("https://images.unsplash.com/photo-1731484634971-7dd76f2c0b7c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
@@ -91,48 +91,25 @@ text-align: center;
 .blank-space-3{
   height: 15vh;
 }
+/*--------welcome-----------*/
+.welcome-sec{
+  height: 100vh;
+}
+.welcome-sec .image-area img{
+  width: 100%; 
+}
 
 /*---selection sec----*/
-
-
-.featured-categories.container {
-  background-color: #f0f0f0; /* Slightly darker gray for container */
-  padding: 20px;
-  border-radius: 8px; /* Rounded corners */
+.feature-categories {
+  height: 110vh;
+  
 }
-
-.featured-categories .image-area {
+.feature-categories .image-area{
   display: flex;
-  flex-direction: column; /* Arrange images vertically */
-  gap: 10px; /* Space between images */
+  align-items: stretch;
 }
 
-.featured-categories .rectangle {
-  width: 80%; /* Make images fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 5px;
-   /* Optional: slightly rounded corners for images */
-}
-
-.featured-categories .text-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Vertically center text */
-  align-items: center; /* Horizontally center text */
-  text-align: center; /* Center text within the container */
-}
-
-.featured-categories h1 {
-  color: #555; /* Dark gray heading */
-  margin-bottom: 10px;
-}
-
-.featured-categories p {
-  color: #777; /* Slightly lighter gray for paragraph */
-  margin-bottom: 20px;
-}
-
-.featured-categories button {
+.feature-categories button {
   background-color: #a00; /* Dark red button */
   color: white;
   border: none;
@@ -140,11 +117,44 @@ text-align: center;
   border-radius: 5px;
   cursor: pointer;
 }
-.featured-categories img{
-  width: 300px;
+.feature-categories .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center text */
+  align-items: center; /* Horizontally center text */
+  text-align: center; /* Center text within the container */
 }
+
+.feature-categories h1 {
+  color: #555; /* Dark gray heading */
+  margin-bottom: 10px;
+}
+
+.feature-categories p {
+  color: #777; /* Slightly lighter gray for paragraph */
+  margin-bottom: 20px;
+}
+.feature-categories .image-area {
+  gap: 2px;
+
+ 
+}
+.feature-categories img{
+  
+  max-width: 100%;
+  height: auto;
+
+}
+.feature-categories .container{
+  width: 120%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px;
+}
+
 /*----NEW---*/
 .new-arrival {
+  height: 10vh;
   text-align: center;
 }
 
@@ -159,6 +169,7 @@ text-align: center;
 }
 /*-------footer----*/
 footer {
+  height: 30vh;
   background-color: #270000;  /* Or your color */
 }
 /* You can add more styles for other footer elements here */
