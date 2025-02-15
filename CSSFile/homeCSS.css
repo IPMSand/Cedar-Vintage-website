@@ -288,7 +288,11 @@ color: white;
 
 
 /*-------footer----????? footer overflow when page shrinking??????whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
-.foot {
+.foot h1{
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: var(--white-color);
+  text-align: left;
  
 
 }
