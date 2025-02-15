@@ -237,12 +237,59 @@ text-align: center;
   width: 100%;
 }
 /*bbbbbbbbbbbbbbbbbb*/
-.featured-stories img{
+.featured-stories  img{
   width: 100%;
+  height: auto;
 }
+.featured-stories .container .row{
+background-color: #252525;
+color: white;
+
+}
+.featured-stories .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center text */
+  align-items: center; /* Horizontally center text */
+  text-align: center; /* Center text within the container */
+}
+.featured-stories  button{
+  background-color: rgb(26, 0, 0); /* Dark red button */
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+  
+  
+}
+.featured-stories #bu{
+  background-color: rgb(255, 255, 255); /* Dark red button */
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+}
+.featured-stories #email{
+  background-color: rgba(255, 255, 255, 0.514); /* Dark red button */
+  color: rgba(0, 0, 0, 0.886);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
 /*-------footer----????? footer overflow when page shrinking??????whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
-.foot .container{
-  min-height: 430px;
+.foot {
+ 
 
 }
 footer {
@@ -256,6 +303,7 @@ footer .container {
   padding: 20px;
   display: block;
   flex-wrap: wrap;
+  min-height: 30vh;
 }
 
 footer ul {
