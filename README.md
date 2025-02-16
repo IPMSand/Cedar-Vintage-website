@@ -51,7 +51,7 @@ This repository houses the codebase for a vintage clothing e-commerce website. T
 
 > GitHub Instructions:
 -      https://youtu.be/9j0AOrO0dnw/
-- ``` <a> https://getbootstrap.com/docs/5.0/components/breadcrumb/ </a>```
+-  https://getbootstrap.com/docs/5.0/components/breadcrumb/ 
 😸
 💻
 
