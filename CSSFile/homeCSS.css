@@ -49,7 +49,7 @@ nav{
   width: 100%;
   height: 100vh; /* Adjust if needed to account for smaller top margin */
   margin: 20px auto 1vw; /* 20px top, auto left/right, 1vw bottom */
-  background-image: url("https://images.unsplash.com/photo-1731484634971-7dd76f2c0b7c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1489343970971-452ba8e1548d?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   
   background-position: center;
@@ -99,6 +99,8 @@ text-align: center;
   height: 80vh;
   transition-delay: 2s;
   
+ 
+  
 }
 .welcome-sec .image-area img{
   width: 100%; 
@@ -139,6 +141,12 @@ text-align: center;
   
   
 }
+.welcome-sec h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.welcome-sec p{
+  font-family:'Arial Narrow Bold';
+}
 
 /*---selection sec----*/
 .feature-sec {
@@ -176,6 +184,7 @@ text-align: center;
 .feature-sec p {
   color: #777; /* Slightly lighter gray for paragraph */
   margin-bottom: 20px;
+  
 }
 .feature-sec .image-area {
   gap: 2px;
@@ -251,28 +260,28 @@ text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 /*---EXPLORE---*/
-.Explore-categories img{
+.about-s img{
   width: 100%;
 }
 /*bbbbbbbbbbbbbbbbbb*/
-.featured-stories  img{
+.about-s{
   width: 100%;
   height: auto;
 }
-.featured-stories .container .row{
-background-color: #252525;
+.about-s .container .row{
+background-color: #370404;
 color: white;
 
 }
-.featured-stories .text-area {
+.about-s .text-area {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Vertically center text */
   align-items: center; /* Horizontally center text */
-  text-align: center; /* Center text within the container */
+  text-align: right; /* Center text within the container */
   
 }
-.featured-stories  button{
+.about-s button{
   background-color: rgb(255, 255, 255); /* Dark red button */
   color: rgb(0, 0, 0);
   border: 1px;
@@ -284,16 +293,23 @@ color: white;
   
   
 }
-.featured-stories .image-area{
+.about-s .image-area{
   padding: 50px;
 }
-
+.about-s span {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about-s h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color: #4A0404;
+}
 
 /*-------footer----????? footer overflow when page shrinking??????whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
 .foot h1{
   font-size: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: var(--white-color);
+  color: #a00;;
   text-align: left;
  
 
