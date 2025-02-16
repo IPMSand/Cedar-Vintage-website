@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Men</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" crossorigin="anonymous"></script> 
+<link rel="stylesheet" href="CSSFile/homeCSS.css">
+<link rel="stylesheet" href="CSSFile/men.css">
+<link rel="stylesheet" href="CSSFile/women.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" id="navbar-brand" href="#">CEDER VINTAGE</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+				
+                <li class="nav-item">
+                    <a class="nav-link" href="#">WOMEN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MEN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEW</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SALE</a>
+                </li>
+            </ul>
+        </div>
+
+	<!-----icons right side--------->
+	<li class="nav-item" style="padding: 0;list-style: none">
+        <a class="nav-link"  href="#" >
+			<i class="fas fa-shopping-bag" style="font-size:18px;color:rgb(255, 255, 255)"></i></a>
+    </li>
+	<li class="nav-item" style="padding: 0;list-style: none">
+        <a class="nav-link"  href="#" >
+			<i class="fas fa-user-alt" style="font-size:18px; color:rgb(255, 255, 255);"></i></a>
+    </li>
+	<li class="nav-item" style="padding: 0;list-style: none">
+        <a class="nav-link"  href="#" >
+			<i class="fa fa-search" style="font-size:18px;color:rgb(255, 255, 255)"></i></a>
+    </li>
+		<li class="nav-item" style="padding: 0;list-style: none">
+        <a class="nav-link"  href="#" >
+			<i class="fa fa-bars" style="font-size:18px;color:rgb(255, 255, 255)"></i></a>
+    </li>
+    <!----toggler menu-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+	
+    </nav>
+    <br>
+	<!---HERO------------------------------------>
+  
+     
+     <!-----welcome us---->
+
+	<!----------Selection------->
+	 <section class="men-s">
+        <div class="container">
+            <h1>MEN</h1>
+    </section>
+    
+   <h1>here content</h1>
+  
+   
+   
+    
+	
+
+
+	
+	<!------shorcut----->
+  <section class="short-cut">
+		<br>
+        <div class="container-fluid">	
+			<button type="button" class="btn btn-outline-primary">FOR HER</button>
+			<button type="button" class="btn btn-outline-primary">FOR HIM</button>
+        </div>
+    </section>
+    <br>
+	<!-----FOOTER----->
+    <section class="foot">
+        <footer class=" text-center py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1>CEDER</h1>
+                        </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                            <li><a href="#">Link 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+   
+ <!--body main container-->
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.4.1.js"></script>
+
+     
+    </body>
+      <!-------------------JavaScript---------------------
+      <script>// Get references to the navbar element and the body element
+      //make this work when scrolling up only
+        const navbar = document.querySelector('.navbar');
+        const body = document.body;
+        
+        // Function to handle the scroll event
+        function handleScroll() {
+            // Calculate the scroll distance from the top
+            const scrollY = window.scrollY || body.scrollTop;
+        
+            // Set the navbar color based on the scroll position
+            if (scrollY > 10) {
+                navbar.classList.remove('scrolled');
+            } else {
+                navbar.classList.add('scrolled');
+            }
+        }
+        
+        // Attach the scroll event listener
+        window.addEventListener('scroll', handleScroll);</script> --->
+
+        
+        
+         <!-------JavaScript for Toggle Menu------->
+        <script> const navbarToggle = document.querySelector('.navbar-toggle');
+            const nav = document.querySelector('.navbar');
+            
+            navbarToggle.addEventListener('click', () => {
+                navbar.classList.toggle('show');
+            });
+         </script>
+</html>
+  <!---<video autoplay loop muted plays-inline-->
+    <script>
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const navbarBrand = document.getElementById("navbar-brand");
+  if (document.documentElement.scrollTop > 110) {
+    navbarBrand.style.position = "fixed"; // Use fixed positioning
+    navbarBrand.style.top = "0";        // Position at the top
+    navbarBrand.style.left = "50%";       // Center horizontally
+    navbarBrand.style.transform = "translateX(-50%)"; // Adjust for centering
+    navbarBrand.style.fontSize = "20px"; // Keep the font size the same or adjust as needed.
+    navbarBrand.style.zIndex = "100"; // Ensure it's above other content.
+    navbarBrand.style.backgroundColor = "white"; // Optional: Add a background color
+    navbarBrand.style.padding = "10px"; // Optional: Add padding
+  } else {
+    navbarBrand.style.position = "relative"; // Or whatever your default positioning is
+    navbarBrand.style.top = "auto";
+    navbarBrand.style.left = "auto";
+    navbarBrand.style.transform = "translateX(0)";
+    navbarBrand.style.fontSize = "20px"; // Reset to original font size if needed
+    navbarBrand.style.backgroundColor = "transparent"; // Optional: Reset background
+    navbarBrand.style.padding = "0"; // Optional: Reset padding
+  }
+}
+        </script>
+        
