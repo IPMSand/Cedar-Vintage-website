@@ -23,6 +23,8 @@
 }
 body{
   scroll-behavior: smooth;
+  
+  
 }
 /*------nav----*/
 nav{
@@ -49,6 +51,7 @@ nav{
   margin: 20px auto 1vw; /* 20px top, auto left/right, 1vw bottom */
   background-image: url("https://images.unsplash.com/photo-1731484634971-7dd76f2c0b7c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+  
   background-position: center;
   box-sizing: border-box;
 }
@@ -94,6 +97,8 @@ text-align: center;
 /*--------welcome-----------*/
 .welcome-sec{
   height: 80vh;
+  transition-delay: 2s;
+  
 }
 .welcome-sec .image-area img{
   width: 100%; 
@@ -138,6 +143,7 @@ text-align: center;
 /*---selection sec----*/
 .feature-sec {
   height: 100vh;
+ 
   
 }
 .feature-sec .image-area{
@@ -326,3 +332,24 @@ footer a {
 footer a:hover {
   color: #706500; /* change color on hover */
 }
+
+/*--EXtra---/
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient rgba(3, 57, 91, 0.2);
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+} 
+video{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+ }---*/
