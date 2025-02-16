@@ -27,14 +27,14 @@ This repository houses the codebase for a vintage clothing e-commerce website. T
 
 ## Technology Stack
 > - Frontend: HTML, CSS, JavaScript , Boostrap
-> - Backend: 
+> - Backend: PHP 
 > - Cloud Platform: 
 
 ## Lisence
 
 > [!TIP]
 > info for developing 
-!! the colours should be vintage like colors.
+!! the colours should be vintage like colors.( in the root css)
 *read information pdf above*
 > 
 - 1 - download GitHub desktop App (if not)
