@@ -25,6 +25,7 @@ body{
   scroll-behavior: smooth;
   
   
+  
 }
 /*------nav----*/
 nav{
@@ -44,11 +45,17 @@ nav{
 .navbar-nav .nav-item .nav-link{
   color:var(--white-color);
 }
+
+@media screen and (max-width: 600px) {
+ nav .navbar-nav .nav-item .nav-link {
+  display: none;
+ }
+}
 /*-------HERO-----*/
 .hero {
   width: 100%;
   height: 100vh; /* Adjust if needed to account for smaller top margin */
-  margin: 30px auto 1vw; /* 20px top, auto left/right, 1vw bottom */
+  /*margin: 20px auto 1vw; / 20px top, auto left/right, 1vw bottom */
   background-image: url("/Images/ben.jpg"); /* later change for better one */
   background-size: cover;
 
@@ -87,27 +94,28 @@ text-align: center;
 
 
 /*----blank space---*/
-.blank-space-1{
-  height: 1vh;
-}
-.blank-space-2{
-  height: 15vh;
-}
-.blank-space-3{
-  height: 10vh;
+.gap-area{
+ height: 20vh;
+  background-image: linear-gradient(to right, rgba(233, 2, 2, 0.386), rgba(86, 8, 8,1));
+
 }
 /*--------welcome-----------*/
-.welcome-sec{
-  height: 80vh;
+.welcome-sec .container-fluid{
+  height: auto;
   transition-delay: 2s;
-  
+  display: block;
+  background-image: linear-gradient(to right, rgba(233, 2, 2, 0.386), rgba(86, 8, 8,1));
+  padding: 15px;
  
   
 }
+
 .welcome-sec .image-area img{
   width: 100%; 
+  padding: 20px;
+  
 }
-#list button{
+.welcome-sec #list button{
   background-color: rgb(86, 8, 8); /* Dark red button */
   color: white;
   border: none;
@@ -116,10 +124,16 @@ text-align: center;
   cursor: pointer;
   text-decoration: none;
   list-style-type: none;
+  margin: 2px;
+  display: inline;
+ 
+  
+  
+  
   
   
 }
-#list button:hover{
+.welcome-sec #list button:hover{
   background-color: rgb(125, 86, 7); /* Dark red button */
   color: white;
   border: none;
@@ -131,45 +145,37 @@ text-align: center;
   
   
 }
-.welcome-sec button{
-  background-color: #a00; /* Dark red button */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  list-style-type: none;
-  
-  
-}
+
 .welcome-sec h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(86, 8, 8);
 }
-.welcome-sec p{
+.welcome-sec #p-welcome {
   font-family:'Arial Narrow Bold';
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  padding: 16px;
+  size: 30px;
+  font-family:   sans-serif;
+
+}
+.welcome-sec #main-btn{
+margin-bottom: 30px;
 }
 
-/*---selection sec----*/
-.feature-sec {
+/*----add-sec----*/
+
+/*---selection sec----------------------*/
+.feature-sec .container-fluid {
   height: 90vh;
-  background-color: #a2202077;
- 
+  /*background-color: #a2202077;**/
+  display: block;
+ background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgba(86, 8, 8, 0.11));
   
 }
-.feature-sec .image-area{
-  display: flex;
-  align-items: stretch;
-}
 
-.feature-sec button {
-  background-color: #a00; /* Dark red button */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+
+
 .feature-sec .text-area {
   display: flex;
   flex-direction: column;
@@ -193,11 +199,12 @@ text-align: center;
 .feature-sec img{
   
   max-width: 100%;
-  height: auto;
+  height: 80vh;
+  margin: 20px;
 
 }
 .feature-sec .container{
-  width: 120%;
+  width: 100%;
  
   text-align: center;
   padding: 10px;
@@ -222,7 +229,7 @@ text-align: center;
 .new-arrival {
   height: 85vh;
   text-align: center;
-  background-color: #ffffff; 
+ background-image: linear-gradient(to right, rgba(207, 190, 190, 0.064), rgba(255, 255, 255, 0.838));
   
 }
 .new-arrival  .container{
@@ -239,21 +246,12 @@ text-align: center;
 .new-arrival img{
   
   max-width: 100%;
-  height: auto;
+  height: 80vh;
+  margin: 20px;
+
 
 }
- .new-arrival button{
-  background-color: #a00; /* Dark red button */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  list-style-type: none;
-  
-  
-}
+
 .new-arrival .text-area {
   display: flex;
   flex-direction: column;
@@ -269,7 +267,7 @@ text-align: center;
 .about-s img{
   width: 100%;
 }
-/*bbbbbbbbbbbbbbbbbb*/
+/*ABOUT section -hidden------------
 .about-s{
   width: 100%;
   height: auto;
@@ -282,13 +280,13 @@ color: white;
 .about-s .text-area {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Vertically center text */
-  align-items: center; /* Horizontally center text */
-  text-align: right; /* Center text within the container */
+  justify-content: center; 
+  align-items: center; 
+  text-align: right; 
   
 }
 .about-s button{
-  background-color: rgb(255, 255, 255); /* Dark red button */
+  background-color: rgb(255, 255, 255); 
   color: rgb(0, 0, 0);
   border: 1px;
   padding: 10px 20px;
@@ -310,12 +308,12 @@ color: white;
   font-size: 50px;
   color: #4A0404;
 }
-
+------ till here- about ---*/
 /*-------footer----????? footer overflow when page shrinking??????whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
 .foot h1{
   font-size: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(255, 255, 255);;
+  color: rgb(255, 255, 255);
   text-align: left;
  
 
@@ -326,14 +324,13 @@ color: white;
 footer {
   width: 100%;
   background-color: #270000;  /* Or your color */
+  display: flex;
 
 }
-/* You can add more styles for other footer elements here */
+
 footer .container {
-  /* Example: Add padding to the container inside the footer */
+
   padding: 20px;
-  display: block;
-  flex-wrap: wrap;
   min-height: 30vh;
 }
 
@@ -355,23 +352,44 @@ footer a:hover {
   color: #706500; /* change color on hover */
 }
 
-/*--EXtra---/
+@media screen and (min-width: 480px) {
+ 
+}
+@media only screen and (max-width: 800px) {
+ footer{
+  width: 100%;
+ 
+ }
+ .foot h1{
+  text-align: center;
+ }
 
-.hero{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient rgba(3, 57, 91, 0.2);
-    position: relative;
-    padding: 0 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-} 
-video{
-    position: absolute;
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -2;
- }---*/
+ .foot ul{
+  text-align: center;
+ }
+
+
+ 
+}
+/*--EXtra---*/
+
+/*-----------common feature--------*/
+  #main-btn{
+  background-color: #a00; /* Dark red button */
+  color: white;
+  border-color: #a00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+
+  
+  
+}
+#main-btn:hover{
+  background-color: var(--white-color);
+  color: black;
+}
+
+
