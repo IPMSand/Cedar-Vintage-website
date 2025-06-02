@@ -27,7 +27,13 @@ body{
   
   
 }
-/*------nav----*/
+
+
+
+
+/*---------------------nav----*/
+
+
 nav{
   color:var(--white-color);
 }
@@ -51,7 +57,15 @@ nav{
   display: none;
  }
 }
-/*-------HERO-----*/
+
+
+
+
+
+
+/*------------------------------HERO--*/
+
+
 .hero {
   width: 100%;
   height: 100vh; /* Adjust if needed to account for smaller top margin */
@@ -99,7 +113,13 @@ text-align: center;
   background-image: linear-gradient(to right, rgba(233, 2, 2, 0.386), rgba(86, 8, 8,1));
 
 }
-/*--------welcome-----------*/
+
+
+
+
+
+/*-----------------------welcome-*/
+
 .welcome-sec .container-fluid{
   height: auto;
   transition-delay: 2s;
@@ -126,9 +146,8 @@ text-align: center;
   list-style-type: none;
   margin: 2px;
   display: inline;
- 
-  
-  
+
+
   
   
   
@@ -163,10 +182,13 @@ text-align: center;
 margin-bottom: 30px;
 }
 
-/*----add-sec----*/
 
-/*---selection sec----------------------*/
-.feature-sec .container-fluid {
+
+
+
+/*------------Feature section (speccial items)*/
+
+.feature-section  #feature-box {
   height: 90vh;
   /*background-color: #a2202077;**/
   display: block;
@@ -176,7 +198,7 @@ margin-bottom: 30px;
 
 
 
-.feature-sec .text-area {
+.feature-section .text-area {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Vertically center text */
@@ -185,35 +207,35 @@ margin-bottom: 30px;
 
 }
 
-.feature-sec h1 {
+.feature-section h1 {
   color: #555; /* Dark gray heading */
   margin-bottom: 10px;
 }
 
-.feature-sec p {
+.feature-section p {
   color: #777; /* Slightly lighter gray for paragraph */
   margin-bottom: 20px;
   
 }
 
-.feature-sec img{
+.feature-section img{
   
   max-width: 100%;
   height: 80vh;
   margin: 20px;
 
 }
-.feature-sec .container{
+.feature-section #feature-box{
   width: 100%;
  
   text-align: center;
   padding: 10px;
 }
-.feature-sec .container .row{
+.feature-section .container .row{
   padding: 40px;
   
 }
-.feature-sec span{
+.feature-section span{
   
     color: #270000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -225,59 +247,173 @@ margin-bottom: 30px;
 @media only screen and (max-width: 600px) {
  
 }
-/*----NEW---*/
-.new-arrival {
-  height: 85vh;
-  text-align: center;
- background-image: linear-gradient(to right, rgba(207, 190, 190, 0.064), rgba(255, 255, 255, 0.838));
+
+
+
+
+
+
+
+
+/*---------------- New arrival section -----------------------------------------*/
+
+
+.new-arrival-section  #new-arrival-box {
+  height: 90vh;
+  /*background-color: #a2202077;**/
+  display: block;
+ background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgb(255, 255, 255));
   
 }
-.new-arrival  .container{
-  width: 120%;
-  
-  
-  text-align: center;
-  padding: 10px;
-}
-.new-arrival .image-area{
+
+
+
+.new-arrival-section .text-area {
   display: flex;
-  align-items: stretch;
+  flex-direction: column;
+  justify-content: center; /* Vertically center text */
+  align-items: center; /* Horizontally center text */
+   /* Center text within the container */
+
 }
-.new-arrival img{
+.new-arrival-section h1 {
+  color: #555; /* Dark gray heading */
+  margin-bottom: 10px;
+}
+
+.new-arrival-section p {
+  color: #777; /* Slightly lighter gray for paragraph */
+  margin-bottom: 20px;
+  
+}
+
+.new-arrival-section img{
   
   max-width: 100%;
   height: 80vh;
   margin: 20px;
 
-
+}
+.new-arrival-section #new-arrival-box{
+  width: 100%;
+ 
+  text-align: center;
+  padding: 10px;
+}
+.new-arrival-section #new-arrival-box .row{
+  padding: 40px;
+  
+}
+.new-arrival-section span{
+  
+    color: #270000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+@media screen and (min-width: 480px) {
+ 
+}
+@media only screen and (max-width: 600px) {
+ 
 }
 
-.new-arrival .text-area {
+
+
+
+
+/*------------------------------All  Section  -------------------------------- */
+
+
+.all-section  #all-box {
+  height: 90vh;
+  /*background-color: #a2202077;**/
+  display: block;
+ background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgba(86, 8, 8, 0.11));
+  
+}
+
+
+
+.all-section .text-area {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Vertically center text */
   align-items: center; /* Horizontally center text */
-  text-align: center; /* Center text within the container */
-}
-.new-arrival span{
-  color: #270000;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-/*---EXPLORE---*/
-.about-s img{
-  width: 100%;
-}
-/*ABOUT section -hidden------------
-.about-s{
-  width: 100%;
-  height: auto;
-}
-.about-s .container .row{
-background-color: #370404;
-color: white;
+   /* Center text within the container */
 
 }
-.about-s .text-area {
+
+.all-section h1 {
+  color: #555; /* Dark gray heading */
+  margin-bottom: 10px;
+}
+
+.all-section p {
+  color: #777; /* Slightly lighter gray for paragraph */
+  margin-bottom: 20px;
+  
+}
+
+.all-section img{
+  
+  max-width: 100%;
+  height: 80vh;
+  margin: 20px;
+
+}
+.all-section #feature-box{
+  width: 100%;
+ 
+  text-align: center;
+  padding: 10px;
+}
+.all-section #all-box .row{
+  padding: 40px;
+  
+}
+.all-section span{
+  
+    color: #270000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+@media screen and (min-width: 480px) {
+ 
+}
+@media only screen and (max-width: 600px) {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+/*ABOUT section----------------------------------------------------------*/
+.about-us-section{
+  width: 80%;
+  display: block;
+  display: inline;
+  
+ 
+  
+}
+.about-us-section #about-us-container {
+background-color: #651c0ae4;
+background-size: cover;
+color: white;
+padding: 20px;
+width: 90%;
+margin-bottom: 50px;
+margin-top: 30px;
+border-radius: .5ren;
+
+}
+.about-us-section .text-area {
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -285,7 +421,7 @@ color: white;
   text-align: right; 
   
 }
-.about-s button{
+.about-us-section button{
   background-color: rgb(255, 255, 255); 
   color: rgb(0, 0, 0);
   border: 1px;
@@ -297,19 +433,27 @@ color: white;
   
   
 }
-.about-s .image-area{
+.about-us-section .image-area{
   padding: 50px;
+  display: block;
+  text-align: center;
 }
-.about-s span {
+.about-us-section span {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.about-s h2{
+.about-us-section #story-title{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 50px;
   color: #4A0404;
 }
------- till here- about ---*/
-/*-------footer----????? footer overflow when page shrinking??????whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
+.about-us-section h1{
+  font-family: Impact;
+}  
+.about-us-section img{
+  width: 70%;
+}
+
+/*-------footer-------------------------------------------------------------*/
 .foot h1{
   font-size: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -373,7 +517,7 @@ footer a:hover {
 }
 /*--EXtra---*/
 
-/*-----------common feature--------*/
+/*-----------common feature-----------------------------------------------------*/
   #main-btn{
   background-color: #a00; /* Dark red button */
   color: white;
