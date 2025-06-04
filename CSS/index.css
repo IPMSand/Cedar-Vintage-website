@@ -29,8 +29,6 @@ body{
 }
 
 
-
-
 /*---------------------nav----*/
 
 
@@ -57,9 +55,6 @@ nav{
   display: none;
  }
 }
-
-
-
 
 
 
@@ -113,7 +108,11 @@ text-align: center;
  background-image: linear-gradient(to right, rgba(233, 2, 2, 0.386), rgb(53, 0, 0));
 
 }
+.gap-area-2{
+ height:6vh;
+ background-image: linear-gradient(to right, rgba(233, 2, 2, 0.386), rgb(53, 0, 0));
 
+}
 
 
 
@@ -191,56 +190,66 @@ margin-bottom: 30px;
 
 
 
-/*------------Feature section (speccial items)*/
+/*------------Home Page Categories Sections---------*/
+.home-section .row{
+    padding: 18px;
+    background-position: center;
+}
 
-.feature-section  #feature-box {
-  height: 90vh;
-  /*background-color: #a2202077;**/
-  display: block;
- background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgba(86, 8, 8, 0.11));
-  
+.home-section #row1{
+     background-image: linear-gradient(to right, rgba(8, 70, 86, 0.755), rgba(1, 64, 40, 0.799));
+}
+.home-section #row2{
+     background-image: linear-gradient(to right, rgba(86, 8, 8, 0.581), rgba(122, 14, 14, 0.844));
+   /* background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgba(122, 14, 14, 0.844));*/
+}
+.home-section #row3{
+  background-image: linear-gradient(to right, rgba(13, 89, 96, 0.527), rgb(2, 81, 61));
 }
 
 
 
-.feature-section .text-area {
+
+
+.home-section .text-area {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Vertically center text */
   align-items: center; /* Horizontally center text */
    /* Center text within the container */
+   
 
 }
 
-.feature-section h1 {
-  color: #555; /* Dark gray heading */
+.home-section h1 {
+  color: #dfc9c9; /* Dark gray heading */
   margin-bottom: 10px;
 }
 
-.feature-section p {
-  color: #777; /* Slightly lighter gray for paragraph */
+.home-sectionp {
+ 
   margin-bottom: 20px;
+  color: #ffffff;
   
 }
 
-.feature-section img{
+.home-section img{
   
   max-width: 100%;
   height: 60vh;
   margin: 20px;
 
 }
-.feature-section #feature-box{
-  width: 100%;
+.home-section #home-section-box{
  
   text-align: center;
   padding: 10px;
 }
-.feature-section .container .row{
+.home-section .container .row{
   padding: 40px;
   
 }
-.feature-section span{
+.home-section span{
   
     color: #270000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -256,153 +265,13 @@ margin-bottom: 30px;
 
 
 
-
-
-
-
-/*---------------- New arrival section -----------------------------------------*/
-
-
-.new-arrival-section  #new-arrival-box {
-  height: 90vh;
-  /*background-color: #a2202077;**/
-  display: block;
- background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgb(255, 255, 255));
-  
-}
-
-
-
-.new-arrival-section .text-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Vertically center text */
-  align-items: center; /* Horizontally center text */
-   /* Center text within the container */
-
-}
-.new-arrival-section h1 {
-  color: #555; /* Dark gray heading */
-  margin-bottom: 10px;
-}
-
-.new-arrival-section p {
-  color: #777; /* Slightly lighter gray for paragraph */
-  margin-bottom: 20px;
-  
-}
-
-.new-arrival-section img{
-  
-  max-width: 100%;
-  height: 80vh;
-  margin: 20px;
-
-}
-.new-arrival-section #new-arrival-box{
-  width: 100%;
- 
-  text-align: center;
-  padding: 10px;
-}
-.new-arrival-section #new-arrival-box .row{
-  padding: 40px;
-  
-}
-.new-arrival-section span{
-  
-    color: #270000;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-}
-@media screen and (min-width: 480px) {
- 
-}
-@media only screen and (max-width: 600px) {
- 
-}
-
-
-
-
-
-/*------------------------------All  Section  -------------------------------- */
-
-
-.all-section  #all-box {
-  height: 90vh;
-  /*background-color: #a2202077;**/
-  display: block;
- background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgba(86, 8, 8, 0.11));
-  
-}
-
-
-
-.all-section .text-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Vertically center text */
-  align-items: center; /* Horizontally center text */
-   /* Center text within the container */
-
-}
-
-.all-section h1 {
-  color: #555; /* Dark gray heading */
-  margin-bottom: 10px;
-}
-
-.all-section p {
-  color: #777; /* Slightly lighter gray for paragraph */
-  margin-bottom: 20px;
-  
-}
-
-.all-section img{
-  
-  max-width: 100%;
-  height: 80vh;
-  margin: 20px;
-
-}
-.all-section #feature-box{
-  width: 100%;
- 
-  text-align: center;
-  padding: 10px;
-}
-.all-section #all-box .row{
-  padding: 40px;
-  
-}
-.all-section span{
-  
-    color: #270000;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-}
-@media screen and (min-width: 480px) {
- 
-}
-@media only screen and (max-width: 600px) {
- 
-}
-
-
-
-
-
-
-
-
-
-
-/*ABOUT section----------------------------------------------------------*/
+/*ABOUT section---------------------------------------------------backcolor does not work-------*/
 .about-us-section{
   width: 80%;
   display: block;
   display: inline;
+  
+  
   
  
   
