@@ -1,0 +1,130 @@
+
+/*---------------- New arrival section -----------------------------------------cut--
+
+
+.new-arrival-section  #new-arrival-box {
+  height: 90vh;
+  /*background-color: #a2202077;**/
+  display: block;
+ background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgb(255, 255, 255));
+  
+}
+
+
+
+.new-arrival-section .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center text */
+  align-items: center; /* Horizontally center text */
+   /* Center text within the container */
+
+}
+.new-arrival-section h1 {
+  color: #555; /* Dark gray heading */
+  margin-bottom: 10px;
+}
+
+.new-arrival-section p {
+  color: #777; /* Slightly lighter gray for paragraph */
+  margin-bottom: 20px;
+  
+}
+
+.new-arrival-section img{
+  
+  max-width: 100%;
+  height: 80vh;
+  margin: 20px;
+
+}
+.new-arrival-section #new-arrival-box{
+  width: 100%;
+ 
+  text-align: center;
+  padding: 10px;
+}
+.new-arrival-section #new-arrival-box .row{
+  padding: 40px;
+  
+}
+.new-arrival-section span{
+  
+    color: #270000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+@media screen and (min-width: 480px) {
+ 
+}
+@media only screen and (max-width: 600px) {
+ 
+}
+
+
+
+
+
+/*------------------------------All  Section  -------------------------------- */
+
+
+.all-section  #all-box {
+  height: 90vh;
+  /*background-color: #a2202077;**/
+  display: block;
+ background-image: linear-gradient(to right, rgba(86, 8, 8, 0.064), rgba(86, 8, 8, 0.11));
+  
+}
+
+
+
+.all-section .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center text */
+  align-items: center; /* Horizontally center text */
+   /* Center text within the container */
+
+}
+
+.all-section h1 {
+  color: #555; /* Dark gray heading */
+  margin-bottom: 10px;
+}
+
+.all-section p {
+  color: #777; /* Slightly lighter gray for paragraph */
+  margin-bottom: 20px;
+  
+}
+
+.all-section img{
+  
+  max-width: 100%;
+  height: 80vh;
+  margin: 20px;
+
+}
+.all-section #feature-box{
+  width: 100%;
+ 
+  text-align: center;
+  padding: 10px;
+}
+.all-section #all-box .row{
+  padding: 40px;
+  
+}
+.all-section span{
+  
+    color: #270000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+@media screen and (min-width: 480px) {
+ 
+}
+@media only screen and (max-width: 600px) {
+ 
+}
+--*/
