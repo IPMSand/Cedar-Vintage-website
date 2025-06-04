@@ -1,14 +1,10 @@
-## CEDER VINTAGE : Clothing Website -ok
+## CEDER GIANA : Clothing Website -ok
 
 ## Overview
 
-This repository houses the codebase for a vintage clothing e-commerce website. The platform is designed to offer a curated selection of vintage apparel and accessories, catering to fashion enthusiasts seeking unique and timeless pieces.
+This repository houses the codebase for a CEDER GIANA clothing e-commerce website. The platform is designed to offer a curated selection of vintage style apparel and accessories, catering to fashion enthusiasts seeking unique and timeless pieces.
 
 ## Key Features
-- men
-- women
-- new
-- sales
 
 - Product Catalog:
                - Comprehensive catalog of vintage items, categorized by era, style, and gender.
@@ -25,10 +21,28 @@ This repository houses the codebase for a vintage clothing e-commerce website. T
  - Customer Reviews:
              - A platform for customers to share their experiences and feedback.
 
+
+### pges
+- home
+- men
+- women
+- new
+- sales
+
+- shopping cart page
+- liked items page
+- payments-related pages (paymen confirm ---> bill--or?)
+- sign in / register
+- subscription / faq / inqueries (one page?)
+
+> That's for now
+
+
 ## Technology Stack
 > - Frontend: HTML, CSS, JavaScript , Boostrap
 > - Backend: PHP 
 > - Cloud Platform: 
+> - MySQL
 
 ## Lisence
 
