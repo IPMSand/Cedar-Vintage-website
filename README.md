@@ -1,4 +1,5 @@
-## CEDER GIANA : Clothing Website - This is a Private Project
+## CEDER GIANA : Clothing Website 
+> This a private group project
 
 ## Overview
 
