@@ -1,4 +1,4 @@
-## CEDER GIANA : Clothing Website -ok
+## CEDER GIANA : Clothing Website - Private Project
 
 ## Overview
 
