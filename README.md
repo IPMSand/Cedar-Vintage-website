@@ -22,7 +22,7 @@ This repository houses the codebase for a CEDER GIANA clothing e-commerce websit
              - A platform for customers to share their experiences and feedback.
 
 
-### pges
+### Pages
 - home
 - men
 - women
