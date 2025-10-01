@@ -1,6 +1,6 @@
 ## CEDER GIANA : Clothing Website 
-> This a private group project
-> Not Complete 
+> This a private group project repo
+
 
 ## Overview
 
