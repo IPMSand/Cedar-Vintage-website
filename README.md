@@ -1,5 +1,6 @@
 ## CEDER GIANA : Clothing Website 
 > This a private group project
+- [ ] Frontend ok 
 
 ## Overview
 
